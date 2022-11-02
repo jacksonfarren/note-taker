@@ -1,6 +1,6 @@
 # Note Taker
 ![Badge](https://img.shields.io/badge/License-MIT-yellow)
-![Badge](https://img.shields.io/github/languages/top/jacksonfarren/team-profile)
+![Badge](https://img.shields.io/github/languages/top/jacksonfarren/note-taker)
 
 ### Deployed Application 
 [Note Taker](https://jackson-farren-note-taker.herokuapp.com/)

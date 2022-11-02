@@ -46,4 +46,19 @@ module.exports = function (app) {
             res.json(notes);
         })
     })
+
+    app.delete("/api/notes/:id", function (req, res) {
+        fse.readFile("db/db.json", "utf8", (err, data) => {
+            if (err) {
+                throw err;
+            }
+
+            let notes = JSON.parse(data);
+            
+            let deleteNote = notes.filter(val => val.id != req.params.id);
+
+            fse.writeFile("db/db.json", JSON.stringify(deleteNote));
+            res.json(deleteNote);
+        })
+    })
 }

@@ -1,6 +1,6 @@
 const fse = require("fs-extra");
 const path = require("path");
-import { v4 as uuidv4 } from 'uuid';
+const { v4: uuidv4 } = require('uuid');
 
 module.exports = function (app) {
     app.get("/notes", function (req, res) {
@@ -10,7 +10,7 @@ module.exports = function (app) {
     app.get("*", function (req, res) {
         res.sendFile(__dirname, "../public/index.html");
     })
-    
+
     app.get("/api/notes", function(req, res) {
 
         // Return saved notes from db.json file

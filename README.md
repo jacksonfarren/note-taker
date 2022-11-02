@@ -2,6 +2,9 @@
 ![Badge](https://img.shields.io/badge/License-MIT-yellow)
 ![Badge](https://img.shields.io/github/languages/top/jacksonfarren/team-profile)
 
+### Deployed Application 
+[Note Taker](https://jackson-farren-note-taker.herokuapp.com/)
+
 ## Description
 The goal of this application was to build an application that allowed users to take notes. The application lets users title a specific note, add text to their note, and save their note. Upon saving, the user's note is then saved and displayed on the left hand side. This allows users to go back and select different notes that they have taken. The application also allows users to delete their notes if they no longer want them to appear in their saved section.
 
